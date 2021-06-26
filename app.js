@@ -44,6 +44,24 @@ let massPopChart = new Chart(myChart, {
 				display: true,
 				text: 'Largest Cities in Massachusetts',
 				fontSize: 25
+			}, 
+			legend: {
+				display: true,
+				position: 'right',
+				labels: {
+					backgroundColor: 'red'
+				}
+			}, 
+			layout: {
+				padding: {
+					left: 50,
+					right: 0,
+					bottom: 0,
+					top: 0,
+				}
+			},
+			tooltips: {
+				enabled: false,
 			}
 		}
 	}
